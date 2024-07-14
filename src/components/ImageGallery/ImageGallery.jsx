@@ -4,10 +4,6 @@ import ImageGalleryItem from 'components/ImageGallleryItem';
 import styles from './ImageGallery.module.css';
 
 class ImageGallery extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { images, handleClick } = this.props;
     return (
